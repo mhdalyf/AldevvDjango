@@ -1,0 +1,35 @@
+/* CSS untuk mengatur tampilan foto */
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+/* CSS untuk mengatur tata letak kolom */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* CSS untuk mengatur jarak antar elemen */
+.col-md-6 {
+    margin-bottom: 20px;
+}
+
+/* CSS untuk mengatur gaya teks */
+.container {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #666;
+}
